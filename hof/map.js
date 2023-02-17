@@ -9,7 +9,7 @@ const cartArray = [
 
 // map percore item por item dentro de um array, e com base nisso, cria um novo array
 // sendo possivel criar um novo array com apenas parte do primeiro array, porem mantendo as mesmas 
-// posicoes daqueles indices do array anterior  
+// posicoes do array anterior e a mesma quantidade de posicoes  
 const mapCart = cartArray.map((product) => ({
         ...product,
         subtotal: product.quantity * product.price
