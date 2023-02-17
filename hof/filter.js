@@ -6,7 +6,7 @@ const cartArray = [
 ]
 
 
-// filter filtra o array, respeitando a rega passada na callback function
+// filter filtra o array, respeitando a regra passada na callback function
 // filter eh semelhante com map, porem cria um novo array com a quantidade de posicoes
 // que se enquadram como verdade em uma determinada condicao 
 const filterCartArray = cartArray.filter((product) => product.quantity > 1)
